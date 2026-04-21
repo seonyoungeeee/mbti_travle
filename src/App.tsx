@@ -21,27 +21,27 @@ export default function App() {
   const questions = [
     {
       id: "q1",
-      title: "낯선 사람과 대화하는 게 좋아?",
+      title: "여행지에서 낯선 사람과 대화하는 게 재미있어??",
       left: "YES",
       right: "NO",
     },
     {
       id: "q2",
-      title: "여행 정보는 리뷰가 좋아, 분위기가 좋아?",
-      left: "리뷰",
-      right: "분위기",
+      title: "여행 정보는 구체적 리뷰가 좋아, 전체 분위기가 좋아?",
+      left: "구체적 리뷰",
+      right: "전체 분위기",
     },
     {
       id: "q3",
-      title: "여행지 선택은 효율이 중요해, 감성이 중요해?",
-      left: "효율",
-      right: "감성",
+      title: "관광지 선택 기준은 시간 효율이야, 마음 끌림이야?",
+      left: "시간 효율",
+      right: "마음 끌림",
     },
     {
       id: "q4",
-      title: "여행 일정은 계획형이야, 자유형이야?",
-      left: "계획",
-      right: "자유",
+      title: "여행 일정은 확정하는 편이야, 유연한 편이야?",
+      left: "일정 확정",
+      right: "유연하게",
     },
   ] as const;
 
